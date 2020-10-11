@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'FrameworkTest'
-    s.version           = '0.9.5'
+    s.version           = '0.9.6'
     s.summary           = 'FrameworkTest test'
     s.homepage          = 'https://gini-apps.com/'
 
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'MIT', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :http => 'https://github.com/Daniel-GiniApps/CarthagePrivateFramework/releases/tag/v0.9.5/FramesorkTest.framework.zip' }
+    s.source            = { :http => 'https://github.com/Daniel-GiniApps/CarthagePrivateFramework/releases/tag/0.9.6/FramesorkTest.framework.zip' }
     s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'FramesorkTest.framework.zip'
 end
