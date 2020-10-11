@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'MIT', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :http => 'https://github.com/AFNetworking/AFNetworking/releases/download/3.1.0/AFNetworking.framework.zip' }
+    s.source            = { :http => 'https://github.com/Daniel-GiniApps/CarthagePrivateFramework/releases/tag/v0.9.5/FramesorkTest.framework.zip' }
     s.source_files      = "add your header files which would be public"
-    s.ios.deployment_target = 'Your deployment target e.g. 8.0'
-    s.ios.vendored_frameworks = 'YourFramework.framework'
+    s.ios.deployment_target = '10.0'
+    s.ios.vendored_frameworks = 'FrameworkTest.framework'
 end
