@@ -9,7 +9,6 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     s.source            = { :http => 'https://github.com/Daniel-GiniApps/CarthagePrivateFramework/releases/tag/v0.9.5/FramesorkTest.framework.zip' }
-    s.source_files      = "add your header files which would be public"
     s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'FrameworkTest.framework'
 end
