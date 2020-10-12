@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'MIT', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :http => 'https://github.com/Daniel-GiniApps/CarthagePrivateFramework/raw/main/FrameworkTest.framework.zip' }
+    s.source            = { :http => 'https://github.com/Daniel-GiniApps/CarthagePrivateFramework/releases/download/0.9.6/FrameworkTest.framework.zip' }
     s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'FrameworkTest.framework'
 end
