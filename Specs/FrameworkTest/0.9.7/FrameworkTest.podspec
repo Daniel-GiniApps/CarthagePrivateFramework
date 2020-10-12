@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'FrameworkTest'
-    s.version           = '0.9.6'
+    s.version           = '0.9.7'
     s.summary           = 'FrameworkTest test'
     s.homepage          = 'https://gini-apps.com/'
 
