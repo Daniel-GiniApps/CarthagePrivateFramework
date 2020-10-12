@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
     s.platform          = :ios
     s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'FrameworkTest.framework'
+
 end
